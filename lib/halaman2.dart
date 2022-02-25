@@ -10,8 +10,7 @@ class _HomeScreenState extends State<HalamanAwal> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blueGrey
-        tittle: 'GoWIST',
+        backgroundColor: Colors.blueGrey,
         elevation: 0,
       ),
     );
