@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'halaman2.dart';
 
 void main() => runApp(MyApp());
 
