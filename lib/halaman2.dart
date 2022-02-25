@@ -14,7 +14,7 @@ class _RegisterState extends State<Register> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('register'),
+        title: Text('Register'),
       ),
       body: Container(
         padding: EdgeInsets.fromLTRB(40, 90, 40, 60),
@@ -26,11 +26,11 @@ class _RegisterState extends State<Register> {
                   Positioned(
                     child: CircleAvatar(
                       radius: 55,
-                      backgroundImage: AssetImage('aset/images/small.jpeg'),
+                      backgroundImage: NetworkImage('https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?w=826'),
                     ),
                   ),
                   Text(
-                    "Welcome to voluntApp",
+                    "Welcome to Sans Aplication",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ],

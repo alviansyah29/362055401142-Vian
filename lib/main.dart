@@ -20,17 +20,17 @@ class FriendlychatApp extends StatelessWidget {
                   Positioned(
                     child: CircleAvatar(
                       radius: 55,
-                      backgroundImage: AssetImage('aset/images/small.jpeg'),
+                      backgroundImage: NetworkImage('https://img.freepik.com/free-vector/gradient-10-10-background_157027-577.jpg?w=826'),
                     ),
                   ),
                   Column(
                     children: [
                       Text(
-                        "Welcome to voluntApp",
+                        "Welcome to Sans",
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        "selamat datang di aplikasi ini semoga betah kajdkajdkajdkajdkjakdjakdjakfjakjakj",
+                        "selamat datang, semoga betah ya",
                         overflow: TextOverflow.visible,
                         maxLines: 2,
                         textAlign: TextAlign.center,
@@ -47,7 +47,7 @@ class FriendlychatApp extends StatelessWidget {
                 child: SizedBox.fromSize(
                   size: Size.square(400),
                   child: Image.asset(
-                    'aset/images/space.jpeg',
+                    'assets/images/wp.png',
                     fit: BoxFit.cover,
                   ),
                 ),

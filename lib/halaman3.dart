@@ -26,7 +26,7 @@ class _RegisterState extends State<Register> {
                   Positioned(
                     child: CircleAvatar(
                       radius: 55,
-                      backgroundImage: AssetImage('aset/images/small.jpeg'),
+                      backgroundImage: NetworkImage('https://img.freepik.com/free-vector/gradient-10-10-background_157027-577.jpg?w=826'),
                     ),
                   ),
                   Text(

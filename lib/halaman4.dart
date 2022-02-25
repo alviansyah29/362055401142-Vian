@@ -19,11 +19,11 @@ class SignUp extends StatelessWidget {
                   Positioned(
                     child: CircleAvatar(
                       radius: 55,
-                      backgroundImage: AssetImage('aset/images/small.jpeg'),
+                      backgroundImage: NetworkImage('https://img.freepik.com/free-photo/closeup-shot-retro-car-with-only-back-wheels-ground-street-night_181624-32812.jpg?w=826'),
                     ),
                   ),
                   Text(
-                    "Welcome to voluntApp",
+                    "Welcome to Sans Application",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ],

@@ -51,7 +51,7 @@ class SignWithFacebook extends StatelessWidget {
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                         Text(
-                          'To Continue to VolintApps',
+                          'To Continue to Sans Aplication',
                           style: TextStyle(fontSize: 12),
                         ),
                       ],
@@ -59,13 +59,13 @@ class SignWithFacebook extends StatelessWidget {
                     SizedBox(
                       height: 20,
                     ),
-                    FormField(Icon(Icons.account_circle), 'Aan Jupriyanto'),
-                    FormField(Icon(Icons.account_circle), 'Aan Jupriyanto'),
+                    FormField(Icon(Icons.account_circle), 'suyanto'),
+                    FormField(Icon(Icons.account_circle), 'supriyanto'),
                     SizedBox(
                       height: 20,
                     ),
                     Container(
-                      child: Text('Creates a text widget.The [overflow] propertys behavior is affected hahahahah'),
+                      child: Text('Creates a text widget.The [overflow] propertys behavior is affected on your life'),
                     )
                   ],
                 ),

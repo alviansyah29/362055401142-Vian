@@ -46,7 +46,7 @@ class SignWithGoogle extends StatelessWidget {
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                         Text(
-                          'To Continue to VolintApps',
+                          'To Continue to Sans Aplication',
                           style: TextStyle(fontSize: 12),
                         ),
                       ],
@@ -54,8 +54,8 @@ class SignWithGoogle extends StatelessWidget {
                     SizedBox(
                       height: 20,
                     ),
-                    FormField(Icon(Icons.account_circle), 'Aan Jupriyanto'),
-                    FormField(Icon(Icons.account_circle), 'Aan Jupriyanto'),
+                    FormField(Icon(Icons.account_circle), 'suyanto'),
+                    FormField(Icon(Icons.account_circle), 'supriyanto'),
                     SizedBox(
                       height: 20,
                     ),
