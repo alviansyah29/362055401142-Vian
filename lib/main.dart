@@ -10,6 +10,7 @@ class FriendlychatApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: Container(
         padding: EdgeInsets.fromLTRB(40, 90, 40, 60),
         child: Column(
@@ -20,7 +21,7 @@ class FriendlychatApp extends StatelessWidget {
                   Positioned(
                     child: CircleAvatar(
                       radius: 55,
-                      backgroundImage: NetworkImage('https://img.freepik.com/free-vector/gradient-10-10-background_157027-577.jpg?w=826'),
+                      backgroundImage: NetworkImage('https://img.freepik.com/free-photo/classic-retro-vintage-car-old-havana-cuba_356194-1419.jpg?w=826'),
                     ),
                   ),
                   Column(
